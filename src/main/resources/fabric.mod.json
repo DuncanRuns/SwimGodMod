@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "swimgod",
+  "version": "${version}",
+  "name": "Swim God",
+  "description": "It's like reverse jesus or something",
+  "authors": [
+    "DuncanRuns"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/swimgod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.duncanruns.swimgod.SwimGod"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "swimgod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.7"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "me.duncanruns.swimgod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AmbientSoundLoopsMixin",
+    "AmbientSoundPlayerMixin",
+    "EnchantmentHelperMixin",
+    "EntityAccessor",
+    "EntityMixin",
+    "FluidStateMixin",
+    "InGameHudMixin",
+    "InGameOverlayRendererMixin",
+    "LivingEntityMixin",
+    "PlayerEntityMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
